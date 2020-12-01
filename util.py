@@ -4,16 +4,16 @@ import logging
 from colored import fore, back, style
 
 
-STY_DESC = fore.LIGHT_GREEN + back.BLACK
-STY_DESC_INV = fore.WHITE + back.LIGHT_GOLDENROD_2B
-STY_DESC_DEBUG = fore.SKY_BLUE_2 + back.BLACK + style.DIM
-STY_USER = style.RESET + fore.WHITE + back.BLACK
-STY_CURSOR = fore.LIGHT_GOLDENROD_2B + back.BLACK + style.BOLD
+STY_DESC = fore.LIGHT_GREEN
+STY_DESC_INV = fore.WHITE
+STY_DESC_DEBUG = fore.SKY_BLUE_2 + style.DIM
+STY_USER = style.RESET + fore.WHITE 
+STY_CURSOR = fore.LIGHT_GOLDENROD_2B + style.BOLD
 STY_RESP = fore.WHITE + back.MEDIUM_VIOLET_RED + style.BOLD
 STY_RECIPIENT = fore.WHITE + back.DODGER_BLUE_2 + style.BOLD
-STY_STAT_DATA = fore.WHITE + back.BLACK + style.BOLD
-STY_STAT_LABEL = fore.LIGHT_BLUE + back.BLACK
-STY_INVISIBLE = fore.BLACK + back.BLACK
+STY_STAT_DATA = fore.WHITE  + style.BOLD
+STY_STAT_LABEL = fore.LIGHT_BLUE 
+STY_INVISIBLE = fore.BLACK 
 # STY_RESP = fore.WHITE + back.GREY_11 + style.BOLD #+ style.NORMAL
 
 
