@@ -12,7 +12,7 @@ STY_CURSOR = fore.LIGHT_GOLDENROD_2B + back.BLACK + style.BOLD
 STY_RESP = fore.BLACK + back.MEDIUM_VIOLET_RED + style.BOLD
 STY_RECIPIENT = fore.BLACK + back.DODGER_BLUE_2 + style.BOLD
 STY_STAT_DATA = fore.BLACK + back.WHITE + style.BOLD
-STY_STAT_LABEL = fore.DARK_BLUE_ + back.WHITE
+STY_STAT_LABEL = fore.DARK_BLUE + back.WHITE
 STY_INVISIBLE = fore.BLACK + back.WHITE
 # STY_RESP = fore.WHITE + back.GREY_11 + style.BOLD #+ style.NORMAL
 
